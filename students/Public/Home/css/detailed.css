@@ -1,0 +1,219 @@
+.big-box{
+    height: 75%;
+    width: 95%;
+    background-color: white;
+    margin:6rem auto; 
+}
+.left{
+    height: 100%;
+    width: 30%;
+    background-color: #263238;
+    padding: 1.5rem;
+    float: left;
+}
+
+.right{
+    width: 70%;
+    float: right; 
+    padding: 2rem 3rem 2rem 2rem; 
+    height: 100%;
+}
+.return{
+    position: fixed;right: 12%;bottom: 15%;
+    cursor: pointer;
+}
+html{
+    height: 100%;
+}
+body{
+    background-image: url(../images/section3back.png);
+    background-position:center;
+    background-size:cover;
+}
+
+
+.return img{
+    height: 3rem;
+}
+
+.captions > span > li {
+    margin-top: 1vh;
+    font-size: 1.6vh;
+}
+
+
+
+.activelist > h1 {
+    margin: 0;
+}
+
+.captions > h1, h3, p {
+    color: white;
+}
+
+.right > p {
+    color: black;
+}
+
+
+.image {
+    height: 30vh;
+    width: 100%;
+    padding: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.gray {
+    background-color: #263238;
+    height: 75%;
+}
+
+* {
+    color: white;
+}
+
+.captions {
+    padding: 2rem;
+}
+
+.captions > span > li {
+    list-style-type: none;
+}
+
+p#title {
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.info > p {
+    font-size: 2vh;
+    line-height: 4vh;
+    color: black;
+    height: inherit;
+    text-indent: 40px;
+}
+
+.info {
+    background-color: white;
+    padding: 2rem;
+    height: 75%;
+    overflow: auto;
+}
+a#sign {
+    color: wheat;
+}
+
+a#sign:hover, a#sign:focus {
+    color: indianred;
+}
+
+@media (max-width: 768px) {
+    .left {
+        width: 100%;
+        height: 30%;
+        padding: 0.5rem;
+    }
+
+    .right {
+        width: 100%;
+        height: 70%;
+        padding: 0.5rem;
+        display: table;
+    }
+
+    .img {
+        height: 100%;
+    }
+    .captions {
+        width: 100%;
+        height: 12rem;
+        border-bottom: 2px solid gray;
+    }
+
+    .captions > span > li {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    .info {
+        padding: 1rem;
+        width: 100% !important;
+        border-bottom: 20px double gray;
+    }
+    .info > p {
+        font-size: 2.7vh !important;
+        height: auto;
+        line-height: 5vh !important;
+        text-indent: 15px;
+        overflow: visible;
+        text-indent: 0;
+    }
+    #captions {
+        order: 3;
+        padding: 0;
+        padding-left: 1rem;
+        display: table;
+    }
+    #img {
+        order: 1;
+    }
+    #info {
+        order: 2;
+    }
+    .gray {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto !important;
+        padding: 0;
+        background-color: white !important;
+        width: 100% !important;
+    }
+    .info {
+        height: auto;
+        overflow: visible;
+    }
+    .image {
+        width: 100% !important;
+        height: 70vw !important;
+        padding: 0 !important;
+    }
+    p#title {
+        font-size: 5vh !important;
+        font-weight: 600;
+    }
+    p, li {
+        color: black !important;
+    }
+    .welcome2 {
+        position: absolute;
+        color: darkgray;
+        top: 3.5rem;
+        padding: 0;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    .landing2 {
+        position: absolute;
+        top: 3.5rem;
+        padding: 0;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    a#sign {
+        color: darkred;
+    }
+    a#sign > i {
+        color: black;
+    }
+    p#title {
+        text-align: left;
+    }
+    span {
+        display: flex;
+    }
+    .return {
+        bottom: 5%;
+    }
+}
